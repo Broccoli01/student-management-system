@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Student.h
+iostream
+-
+string
+-
+
+../include/StudentManager.h
+vector
+-
+map
+-
+memory
+-
+stdexcept
+-
+Student.h
+../include/Student.h
+
+/home/xiaojy/myworkstation/student_manager/src/StudentManager.cpp
+StudentManager.h
+/home/xiaojy/myworkstation/student_manager/src/StudentManager.h
+algorithm
+-
+
